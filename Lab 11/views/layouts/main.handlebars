@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>The Show Searcher</title>
+    <link rel="stylesheet" href="/public/css/stylesheet.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="/" id="homeLink">Back to All Shows</a>
+        <h1 id="header">The Show Searcher </h1>
+    </header>
+
+    <main class="mainClass">
+
+        <form id="searchForm">
+
+            <label for="search_term">Search for a show:</label>
+
+            <input id="search_term" type="text" name="search_term" placeholder="Show Keyword" />
+            <button type="submit">Search</button>
+
+        </form>
+
+        <ul id="showList"></ul>
+        <div id="show"></div>
+        <h4 class = "error"> Error: The search you have made is invalid!</h4>
+    </main>
+
+    <footer>
+        <p class="footer">Ryan Knapp 10473777</p>
+    </footer>
+
+     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+    <script src="/public/javascript/ajax.js"></script>
+
+</body>
+
+</html>
